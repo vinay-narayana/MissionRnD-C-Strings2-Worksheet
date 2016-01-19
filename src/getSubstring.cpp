@@ -25,6 +25,6 @@ char * get_sub_string(char *str, int i, int j){
 	char *sub_str = (char *)malloc(sizeof(char)*(j - i));
 	for (index = i; index <= j; index++, index2++)
 		sub_str[index2] = str[index];
-	sub_str[index2] = NULL;
+	
 	return sub_str;
 }
